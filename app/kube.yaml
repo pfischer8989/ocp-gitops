@@ -26,6 +26,8 @@ spec:
       app: emailservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: emailservice
     spec:
@@ -81,6 +83,8 @@ spec:
       app: checkoutservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: checkoutservice
     spec:
@@ -149,6 +153,8 @@ spec:
       app: recommendationservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: recommendationservice
     spec:
@@ -208,6 +214,8 @@ spec:
       app: frontend
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: frontend
         version: v1
@@ -304,6 +312,8 @@ spec:
       app: paymentservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: paymentservice
     spec:
@@ -353,6 +363,8 @@ spec:
       app: productcatalogservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: productcatalogservice
     spec:
@@ -410,6 +422,8 @@ spec:
       app: cartservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: cartservice
     spec:
@@ -467,6 +481,8 @@ spec:
   replicas: 1
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: loadgenerator
       annotations:
@@ -500,6 +516,8 @@ spec:
       app: currencyservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: currencyservice
     spec:
@@ -556,6 +574,8 @@ spec:
       app: shippingservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: shippingservice
     spec:
@@ -613,6 +633,8 @@ spec:
       app: redis-cart
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: redis-cart
     spec:
@@ -666,6 +688,8 @@ spec:
       app: adservice
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         app: adservice
     spec:
