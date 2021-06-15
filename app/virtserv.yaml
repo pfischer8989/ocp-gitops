@@ -16,16 +16,4 @@ spec:
     route:
     - destination:
         host: frontend
-        subset: v1
-      weight: 100
-#    - destination:
-#        host: frontend
-#        subset: v2
-#      weight: 80
-  - name: "others"
-    route:
-    - destination:
-        host: frontend
-        subset: v2
-      weight: 100
 
