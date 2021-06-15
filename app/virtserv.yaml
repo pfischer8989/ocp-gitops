@@ -4,9 +4,9 @@ metadata:
   name: onlineboutique-ingress
 spec:
   hosts:
-    - "onlineb.apps.pf-ocp48.rh-ocp-fischer.com"
+  - "*"
   gateways:
-  - istio-system/default-gateway
+  - onlineb-gateway
   http:
   - name: "firefox"
     match:
