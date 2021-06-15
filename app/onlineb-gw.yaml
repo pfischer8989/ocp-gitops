@@ -11,4 +11,4 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "*"
+    - "onlineb.apps.pf-ocp48.rh-ocp-fischer.com"
