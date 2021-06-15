@@ -4,6 +4,8 @@ metadata:
     name: default-gateway
     namespace: istio-system
 spec:
+    selector:
+      istio: ingressgateway    
     servers:
     - hosts:
       - '*'
